@@ -1,3 +1,4 @@
+/* Page structure and type-setting */
 html {
   font-family: Tahoma, sans-serif;
   font-size: 16px;
@@ -43,6 +44,23 @@ footer {
   display: flex;
   flex-direction: column;
   min-height: 100vh; 
+}
+
+/* Components */
+.button {
+	background-color: #2a5;
+	color: #fff;
+	padding: 10px 15px;
+	border-radius: 2px;
+	border: 1px solid transparent;
+	transition: 0.1s all ease-in-out;
+}
+
+.button:hover {
+	color: #2a5;
+	background-color: #fff;
+	text-decoration: none;
+	border-color: #2a5;
 }
 
 .text-center {
