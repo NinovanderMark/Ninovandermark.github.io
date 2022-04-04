@@ -60,13 +60,14 @@ footer {
 	border: 1px solid transparent;
 	transition: 0.1s all ease-in-out;
 	display: inline-block;
+	text-decoration: none;
 }
 
 .button:hover {
 	color: #2a5;
 	background-color: #fff;
-	text-decoration: none;
 	border-color: #2a5;
+	text-decoration: none;
 }
 
 .text-center {
