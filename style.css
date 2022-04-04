@@ -54,6 +54,7 @@ footer {
 	border-radius: 2px;
 	border: 1px solid transparent;
 	transition: 0.1s all ease-in-out;
+	display: inline-block;
 }
 
 .button:hover {
@@ -65,10 +66,6 @@ footer {
 
 .text-center {
   text-align: center;
-}
-
-.panel-block {
-	margin-bottom: 20px;
 }
 
 .block-grid {
