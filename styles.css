@@ -1,8 +1,10 @@
-/* Page structure and type-setting */
+/* ============ */
+/* Type setting */
+/* ============ */
 html {
-font-family: 'Roboto', Arial, sans-serif;
-font-weight: 300;
-font-size: 16px;
+	font-family: 'Roboto', Arial, sans-serif;
+	font-weight: 300;
+	font-size: 16px;
 }
 
 body {
@@ -12,7 +14,7 @@ body {
 	padding: 0;
 }
 
-p             { margin: 0 0 15px 0; }
+p             { margin: 0 0 20px 0; }
 p:last-child  { margin-bottom: 0; }
 
 a 		{ color: #5af; font-weight: 400; }
@@ -25,18 +27,21 @@ h4, .h4 { font-size: 1.4rem; margin: 0 0 20px 0; }
 h5, .h5 { font-size: 1.2rem; margin: 0 0 20px 0; }
 h6, .h6 { font-size: 1.1rem; margin: 0 0 20px 0; }
 
+/* ============== */
+/* Page structure */
+/* ============== */
 header {
 	background-color: #3e3e3e;
 	padding: 15px 0;
 }
 
 main {
-flex-grow: 1;
-position: relative;
+	flex-grow: 1;
+	position: relative;
 }
 
 section {
-padding: 45px 0;
+	padding: 45px 0;
 }
 
 section:nth-child(2n) {
@@ -51,9 +56,9 @@ footer {
 }
 
 #page {
-display: flex;
-flex-direction: column;
-min-height: 100vh; 
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh; 
 }
 
 .container {
@@ -62,7 +67,10 @@ min-height: 100vh;
 	padding: 0 15px;
 }
 
+/* ========== */
 /* Components */
+/* ========== */
+
 .button {
 	background-color: #5af;
 	color: #fff;
@@ -87,32 +95,57 @@ min-height: 100vh;
 	text-align: center;
 }
 
+/* Panel blocks */
 .panel-block {
 	position: relative;
 	box-shadow: 2px 2px 4px rgba(0,0,0,0.1);
 	border: 1px solid #eaeaea;
 	transition: 0.1s all ease-in-out;
+	background-color: #fafafa;
+	width: 100%;
 }
 
 .panel-block:hover {
 	box-shadow: 2px 2px 4px rgba(0,0,0,0.3);
 }
 
-.panel-block::after {
+.panel-block figure {
+	position: relative;
+	margin: auto;
+	padding: 15px;
+}
+
+.panel-block figure::before {
 	content: '';
 	position: absolute;
 	left: 0;
 	top: 0;
-	background-color: rgba(255,255,255,0.9);
-	z-index: 0;
 	width: 100%;
 	height: 100%;
+	z-index: 1;
+	background-color: rgba(0,0,0,0.5);
 }
 
+.panel-block figure > p,
+.panel-block figure > h1,
+.panel-block figure > h2,
+.panel-block figure > h3,
+.panel-block figure > h4,
+.panel-block figure > h5,
+.panel-block figure > h6 {
+	position: relative;
+	z-index: 1;
+	margin: auto;
+	color: #fff;
+}
+
+/* Block grid */
 .block-grid {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
+	align-content: space-between;
+	gap: 30px 10px;
 }
 
 @media screen and (min-width: 768px) {
@@ -122,10 +155,7 @@ min-height: 100vh;
 }
 
 .content {
-	position: relative;
-	z-index: 1;
 	padding: 10px;
-	font-weight: 400;
 }
 
 img.background {
@@ -138,7 +168,9 @@ img.background {
 	height: 100%;
 }
 
+/* =============== */
 /* Utility classes */
+/* =============== */
 .glow {
 	transition: 0.1s all ease-in-out;
 }
