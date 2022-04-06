@@ -14,6 +14,11 @@ body {
 	padding: 0;
 }
 
+body.dark {
+	background-color: #222;
+	color: #fafafa;
+}
+
 p             { margin: 0 0 20px 0; }
 p:last-child  { margin-bottom: 0; }
 
@@ -35,6 +40,10 @@ header {
 	padding: 15px 0;
 }
 
+.dark header {
+	background-color: #efefef;
+}
+
 main {
 	flex-grow: 1;
 	position: relative;
@@ -49,10 +58,20 @@ section:nth-child(2n) {
 	background-image: linear-gradient(to right, #f0f0f3, #f0f5f8, #f0f0f3);
 }
 
+.dark section:nth-child(2n) {
+	background-color: #353a3f;
+	background-image: linear-gradient(to right, #303033, #305558, #303033);
+}
+
 footer {
 	background-color: #e5eaef;
 	border-top: 1px solid #ddd;
 	padding: 15px 0;
+}
+
+.dark footer {
+	background-color: #555a5f;
+	border-color: #777;
 }
 
 #page {
@@ -83,12 +102,20 @@ footer {
 	box-shadow: 2px 2px 2px rgba(0,0,0,0.3);
 }
 
+.dark .button {
+	box-shadow: 2px 2px 2px rgba(255,255,255,0.3);
+}
+
 .button:hover {
 	color: #5af;
 	background-color: #fff;
 	border-color: #5af;
 	text-decoration: none;
 	box-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+.dark .button:hover {
+	box-shadow: 2px 2px 4px rgba(255,255,255,0.5);
 }
 
 .text-center {
@@ -105,8 +132,18 @@ footer {
 	width: 100%;
 }
 
+.dark .panel-block {
+	box-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+	border-color: #4a4a4a;
+	background-color: #222;
+}
+
 .panel-block:hover {
 	box-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+}
+
+.dark .panel-block:hover {
+	box-shadow: 2px 2px 4px rgba(0,0,0,0.5);
 }
 
 .panel-block figure {
