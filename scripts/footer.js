@@ -8,6 +8,9 @@
         "Website is powered by random number generators and hosted on <a href='https://github.com/NinovanderMark/Ninovandermark.github.io'>GitHub Pages</a>!"
     ];
 
+    if ( randomNumber(4) === 3)
+        return;
+
     let index = randomNumber(messages.length);
     let p = document.querySelectorAll('footer p');
     if ( p.length < 1)
