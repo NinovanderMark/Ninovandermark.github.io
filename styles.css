@@ -55,12 +55,10 @@ section {
 
 section:nth-child(2n) {
 	background-color: #e5eaef;
-	background-image: linear-gradient(to right, #f0f0f3, #f0f5f8, #f0f0f3);
 }
 
 .dark section:nth-child(2n) {
 	background-color: #353a3f;
-	background-image: linear-gradient(to right, #303033, #305558, #303033);
 }
 
 footer {
