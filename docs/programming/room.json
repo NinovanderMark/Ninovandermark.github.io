@@ -9,6 +9,7 @@
     "room":{
         "ceiling":"#005580",
         "floor":"#2b4000",
+        "player":[17,19,0],
         "objects":[
             {
                 "type":"block",
