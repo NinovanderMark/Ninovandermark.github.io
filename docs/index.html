@@ -3,78 +3,91 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Nino's Personal Pages</title>
+        <title>Nino van der Mark - Personal Website</title>
         <link rel="stylesheet" href="/styles.css" media="all">
         <link rel="stylesheet" href="/fonts.css" media="print" onload="this.media='all'">
         <noscript><link rel="stylesheet" href="/fonts.css"></noscript>
     </head>
 
     <body id="page">
-        <header>
-            <div class="container">
-            </div>
-        </header>
+        <section>
+            <main>
+                <div class="container row-reversed text-center">
+                    <article class="borderless">
+                        <h1>Welcome to my personal website.</h1>
 
-        <main>
-            <section class="text-center">
+                        <p>My name is Nino van der Mark, I'm a Christian, Musician and professional Software developer from the Netherlands.</p>
+                        <p>This website aims to be a single-page overview of the various projects I'm involved in. Feel free to browse and check them out.</p>
+                        <p>If you're interested, you can reach me on <a href="https://fosstodon.org/@ninovandermark">Mastodon</a>, 
+                            <a href="https://twitter.com/ninovandermark">Twitter</a>, <a href="https://www.linkedin.com/in/ninovdmark/">LinkedIn</a> or
+                            <a href="https://github.com/ninovandermark">GitHub</a></p>
+                    </article>
+
+                    <aside>
+                        <img src="/img/nino-hoofd.png" alt="Photograph of Nino">
+                    </aside>
+                </div>
+            </main>
+        </section>
+
+        <section>
+            <header>
+                <img class="background" src="/img/code.jpg">
+                <div class="container">                
+                    <h2>Programming</h2>
+                </div>
+            </header>
+
+            <main>
                 <div class="container">
-                    <h1>Welcome to Nino's Personal Pages</h1>
-
-                    <p>My name is Nino van der Mark, I'm a Christian, Musician and professional Software developer from the Netherlands.</p>
-                    <p>This is my personal page where I share about the above topics, I hope you'll enjoy them.</p>
-                    <p>Feel free to get in touch or follow me on <a href="https://twitter.com/ninovandermark">Twitter</a> or
-                        <a href="https://github.com/ninovandermark">GitHub</a></p>
-
-                </div>
-            </section>
-
-            <section>
-                <div class="container block-grid">
-                    <div class="panel-block">
-                        <figure>
-                            <img class="background" src="/img/heaven.jpg">
-                            <h2>Faith in Jesus</h2>
-                        </figure>
-
-                        <div class="content">
-                            <p>He is the way, the truth and the life. Whosoever believes in him shall not perish but live
-                                forever!</p>
-                            <p><a href="/faith/index.html" class="button">Read more</a></p>
-                        </div>
-                    </div>
-
-
-                    <div class="panel-block">
-                        <figure>
-                            <img class="background" src="/img/code.jpg">
-                            <h2>Programming</h2>
-                        </figure>
+                    <article>
                         
-                        <div class="content">
-                            <p>My job and pasttime, I enjoy working with computers and making them do cool things.</p>
-                            <p><a href="/programming/index.html" class="button">Read more</a></p>
-                        </div>
-                    </div>
+                        <h3>Game development</h3>
+                        <p>I'm currently working on a mining game that runs in the terminal, available for Windows, MacOs and Linux platforms. </p>
+                        <p>For updates on the development, check out my <a href="https://fosstodon.org/@ninovandermark">Mastodon</a> or <a href="https://twitter.com/ninovandermark">Twitter</a> accounts.</p>
+                        <img src="/img/mining-game.png" alt="Development screenshot of Mining Game" title="Development screenshot of Mining Game">
+                    </article>
 
-                    <div class="panel-block">
-                        <figure>
-                            <img class="background" src="/img/music.jpg">
-                            <h2>Music</h2>
-                        </figure>
-                        
-                        <div class="content">
-                            <p>Listening or making music, I enjoy both, together with my wonderful wife.</p>
-                            <p><a href="/music/index.html" class="button">Read more</a></p>
-                        </div>
-                    </div>
+                    <article>
+                        <h3>Open source</h3>
+                        <p>There are a number of open-source projects I've been involved in over the years, but the following are projects I've started that are somewhat active. </p>
+                        <p>For a complete list of repositories, check out my <a href="https://github.com/ninovandermark">GitHub</a> profile.</p>
+                        <ul>
+                            <li><a href="https://github.com/NinovanderMark/ConsoleRenderer">ConsoleRenderer</a> - Graphics library to draw to a terminal for C# .NET</li>
+                            <li><a href="https://github.com/NinovanderMark/WebLabyrinth">WebLabyrinth</a> - Typescript implementation of a raycaster</li>
+                            <li><a href="https://github.com/NinovanderMark/ConnectionStringTester">ConnectionStringTester</a> - Windows application to test .NET ConnectionStrings</li>
+                        </ul>
+                    </article>
                 </div>
+            </main>
+        </section>
+
+        <section>
+            <header>
+                <img class="background" src="/img/music.jpg">
+                <div class="container">
+                    <h2>Music</h2>
                 </div>
-            </section>
-        </main>
+            </header>
+
+            <main>
+                <div class="container">
+                <article>
+                    <h3>Markus Immanuel</h3>
+                    <p>Together with my wife, we write and produce our own music under the Markus Immanuel name. You can check us out on <a href="https://www.youtube.com/@MarkusImmanuel">YouTube</a> or <a href="https://soundcloud.com/markusimmanuel">SoundCloud</a>.</p>
+                </article>
+
+                <article>
+                    <h3>Church Worship</h3>
+                    <p>Our family is part of Gods Embassy Amsterdam, where we serve in the worship team. We have celebrations every Sunday morning at 10:30 AM CET. </p>
+                    <p>Check out the livestream on <a href="https://www.youtube.com/@GodsEmbassyAmsterdam">YouTube</a>, or come visit Ellermanstraat 30 in Amsterdam.</p>
+                </article>
+            </main>
+        </section>
 
         <footer>
             <div class="container">
-                <p>Website is powered by the <span class="glow">Holy Spirit</span> and hosted on 
+                <p>Copyright ©2024 Nino van der Mark - Powered by the <span class="glow">Holy Spirit</span> and hosted on 
                     <a href="https://github.com/NinovanderMark/Ninovandermark.github.io">GitHub Pages</a>!</p>
             </div>
         </footer>
