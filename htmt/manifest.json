@@ -1,0 +1,10 @@
+{
+    "elements": [
+        "page"
+    ],
+	"outputPath": "../docs",
+	"assets": {
+		"input": "assets",
+		"output": ""
+	}
+}

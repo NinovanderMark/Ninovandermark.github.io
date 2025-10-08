@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta property="og:image" content="https://www.ninovandermark.nl/img/nino-hoofd.png" />
+        <title>{{ Title }}</title>
+        <link rel="stylesheet" href="/css/styles.css" media="all">
+        <link rel="stylesheet" href="/css/fonts.css" media="print" onload="this.media='all'">
+        <noscript><link rel="stylesheet" href="/fonts.css"></noscript>
+    </head>
+
+    <body id="page">
+        {{ InnerHtml }}
+
+        <footer>Powered by the <span class="glow">Holy Spirit</span></footer>
+        <script src="/scripts/main.js"></script>
+        
+        <!-- Other stuff-->
+        <div class="hidden"><a rel="me" href="https://fosstodon.org/@ninovandermark">Mastodon</a></div>
+    </body>
+</html>
