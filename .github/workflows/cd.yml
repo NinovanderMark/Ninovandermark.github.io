@@ -35,7 +35,9 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Build website
-        run: ./HtmlTemplater-${{env.TemplaterVersion}} htmt/manifest.json
+        run: |
+          chmod +x HtmlTemplater-${{env.TemplaterVersion}}
+           ./HtmlTemplater-${{env.TemplaterVersion}} htmt/manifest.json
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
