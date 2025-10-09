@@ -42,6 +42,7 @@
                     <p>There are a number of open-source projects I've been involved in over the years, but the following are projects I've started that are somewhat active. </p>
                     <p>For a complete list of repositories, check out my <a href="https://github.com/ninovandermark">GitHub</a> profile.</p>
                     <ul>
+                        <li><a href="https://github.com/NinovanderMark/HtmlTemplater">HTML Templater</a> - Static site generator that uses plain HTML for templates/components and content pages.</li>
                         <li><a href="https://github.com/NinovanderMark/ConsoleRenderer">ConsoleRenderer</a> - Graphics library to draw to a terminal for C# .NET</li>
                         <li><a href="https://github.com/NinovanderMark/WebLabyrinth">WebLabyrinth</a> - Typescript implementation of a raycaster</li>
                         <li><a href="https://github.com/NinovanderMark/ConnectionStringTester">ConnectionStringTester</a> - Windows application to test .NET ConnectionStrings</li>
