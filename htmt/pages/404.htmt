@@ -1,0 +1,9 @@
+<page title="Page not found">
+    <section class="text-center">
+        <main class="container">
+            <h1>Page not found</h1>
+        
+            <p>The page you have tried to reach cannot be found. Please check the URL, or head back to the <a href="/index.html">Home page</a></p>
+        </main>
+    </section>
+</page>
