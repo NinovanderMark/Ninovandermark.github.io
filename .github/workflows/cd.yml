@@ -1,0 +1,45 @@
+name: Continuous Deployment
+
+on:
+  push:
+    branches: [ "main" ]
+
+defaults:
+  run:
+    shell: bash
+    working-directory: ./src
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+env: 
+  TemplaterVersion: '0.2.1'
+
+jobs:
+  deploy-website:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - uses: robinraju/release-downloader@v1
+        with:
+          repository: 'NinovanderMark/HtmlTemplater'
+          tag: 'v$TemplaterVersion'
+          fileName: 'linux-x64.zip'
+          extract: true
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+      - name: Build website
+        run: ./HtmlTemplater-$TemplaterVersion htmt/manifest.json
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: 'docs/'
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
