@@ -29,13 +29,13 @@ jobs:
       - uses: robinraju/release-downloader@v1
         with:
           repository: 'NinovanderMark/HtmlTemplater'
-          tag: 'v$TemplaterVersion'
+          tag: 'v${{env.TemplaterVersion}}'
           fileName: 'linux-x64.zip'
           extract: true
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Build website
-        run: ./HtmlTemplater-$TemplaterVersion htmt/manifest.json
+        run: ./HtmlTemplater-${{env.TemplaterVersion}} htmt/manifest.json
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
