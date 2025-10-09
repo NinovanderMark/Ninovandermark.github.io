@@ -26,12 +26,12 @@ function randomNumber(max) {
 
 (function() {
     let messages = [
-        "Powered by the <span class='glow'>Holy Spirit</span> and hosted on <a href='https://github.com/NinovanderMark/Ninovandermark.github.io'>GitHub Pages</a>!",
-        "Powered by the grace of God and hosted on <a href='https://github.com/NinovanderMark/Ninovandermark.github.io'>GitHub Pages</a>!",
-        "Powered by the love of Jesus and hosted on <a href='https://github.com/NinovanderMark/Ninovandermark.github.io'>GitHub Pages</a>!",
-        "Powered by HTML5 and hosted on <a href='https://github.com/NinovanderMark/Ninovandermark.github.io'>GitHub Pages</a>!",
-        "Powered by a history of mucking about with computers and hosted on <a href='https://github.com/NinovanderMark/Ninovandermark.github.io'>GitHub Pages</a>!",
-        "Powered by random number generators and hosted on <a href='https://github.com/NinovanderMark/Ninovandermark.github.io'>GitHub Pages</a>!"
+        "the <span class='glow'>Holy Spirit</span>",
+        "the grace of God",
+        "the love of Jesus",
+        "HTML5",
+        "a history of mucking about with computers",
+        "random number generators"
     ];
 
     if ( randomNumber(4) === 3)
@@ -42,5 +42,6 @@ function randomNumber(max) {
     if ( p.length < 1)
         return;
 
-    p[0].innerHTML = `Copyright ©2025 Nino van der Mark - ${messages[index]}`;
+    const after = ', <a href="https://github.com/NinovanderMark/HtmlTemplater">HTML Templater</a>, and hosted on <a href="https://github.com/NinovanderMark/Ninovandermark.github.io">GitHub Pages</a>!';
+    p[0].innerHTML = `Copyright ©2025 Nino van der Mark - Powered by ${messages[index]}, ${after}`;
 })()
