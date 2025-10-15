@@ -1,0 +1,14 @@
+<page title="Nino van der Mark - Personal Website">
+    <section>
+        <main>
+            <div class="container row-reversed text-center">
+                <article class="borderless">
+                    <h1>Under construction</h1>
+
+                    <p>This page is under construction, please return at a later time.</p>
+                    <p><a href="/index.html">Return to home</a></p>
+                </article>
+            </div>
+        </main>
+    </section>
+</page>

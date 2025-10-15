@@ -42,6 +42,6 @@ function randomNumber(max) {
     if ( p.length < 1)
         return;
 
-    const after = ', <a href="https://github.com/NinovanderMark/HtmlTemplater">HTML Templater</a>, and hosted on <a href="https://github.com/NinovanderMark/Ninovandermark.github.io">GitHub Pages</a>!';
+    const after = '<a href="https://github.com/NinovanderMark/HtmlTemplater">HTML Templater</a>, and hosted on <a href="https://github.com/NinovanderMark/Ninovandermark.github.io">GitHub Pages</a>!';
     p[0].innerHTML = `Copyright ©2025 Nino van der Mark - Powered by ${messages[index]}, ${after}`;
 })()

@@ -2,9 +2,5 @@
     "elements": [
         "page"
     ],
-	"outputPath": "../docs",
-	"assets": {
-		"input": "assets",
-		"output": ""
-	}
+	"outputPath": "../docs"
 }

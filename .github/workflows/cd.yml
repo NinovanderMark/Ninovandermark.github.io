@@ -15,7 +15,7 @@ permissions:
   id-token: write
 
 env: 
-  TemplaterVersion: '0.2.1'
+  TemplaterVersion: '0.3.0'
 
 jobs:
   deploy-website:
@@ -36,8 +36,8 @@ jobs:
         uses: actions/configure-pages@v5
       - name: Build website
         run: |
-          chmod +x HtmlTemplater-${{env.TemplaterVersion}}
-           ./HtmlTemplater-${{env.TemplaterVersion}} htmt/manifest.json
+          chmod +x HtmlTemplater
+           ./HtmlTemplater htmt/manifest.json
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
