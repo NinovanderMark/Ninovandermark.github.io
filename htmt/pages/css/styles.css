@@ -15,7 +15,7 @@ body {
 }
 
 body.dark {
-	background-color: #222;
+	background-color: #111;
 	color: #fafafa;
 }
 
@@ -94,7 +94,7 @@ footer {
 }
 
 .dark footer {
-	background-color: #555a5f;
+	background-color: #222;
 	border-color: #777;
 }
 
@@ -133,6 +133,10 @@ article:not(:last-child) {
 	border-bottom: 4px solid #e5eaef;
 }
 
+.dark article {
+	border-color: #333;
+}
+
 @media screen and (max-width: 1000px) {
 	.container.row, .container.row-reversed {
 		flex-direction: column;
@@ -142,6 +146,32 @@ article:not(:last-child) {
 /* ========== */
 /* Components */
 /* ========== */
+
+/* == Color Toggle == */
+.color-toggle {
+	position: absolute;
+	right: 0;
+	top: 0;
+	margin: 10px;
+	z-index: 1;
+	text-decoration: none;
+	filter: grayscale(1);
+}
+
+.color-toggle::before {
+	content: '🌙';
+  	background-color: #333;
+	border-radius: 50%;
+	padding: 3px;
+	text-align: center;
+}
+
+.dark .color-toggle::before {
+	content: '☀️';
+	background-color: #eee;
+}
+
+/* == Buttons == */
 
 .button {
 	background-color: #5af;

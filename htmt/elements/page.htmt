@@ -11,6 +11,9 @@
     </head>
 
     <body id="page">
+        <header>
+            <a href="#" class="color-toggle" onclick="toggleColorMode()"></a>
+        </header>
         {{ InnerHtml }}
 
         <footer>

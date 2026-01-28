@@ -45,3 +45,11 @@ function randomNumber(max) {
     const after = '<a href="https://github.com/NinovanderMark/HtmlTemplater">HTML Templater</a>, and hosted on <a href="https://github.com/NinovanderMark/Ninovandermark.github.io">GitHub Pages</a>!';
     p[0].innerHTML = `Copyright ©2025 Nino van der Mark - Powered by ${messages[index]}, ${after}`;
 })()
+
+function toggleColorMode() {
+    if ( document.body.classList.contains('dark') ) {
+        document.body.classList.remove('dark');
+    } else {
+        document.body.classList.add('dark');
+    }
+}
