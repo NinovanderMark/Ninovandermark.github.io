@@ -23,15 +23,21 @@
         <header>
             <img class="background" src="/img/code.jpg">
             <div class="container">                
-                <h2>Programming</h2>
+                <h2>Software Development</h2>
             </div>
         </header>
 
         <main>
             <div class="container">
                 <article>
-                    
+                    <h3>Professional</h3>
+                    <p>In my professional life I'm a software developer for 4Dotnet working mainly with C#, .NET, Angular and Typescript. 
+                        If you're interested in reaching me for professional purposes, please see my <a href="/cv">CV here</a> for ways to get in touch.</p>
+                </article>
+                <article>
                     <h3>Game development</h3>
+                    <p>My interest in software development started with making games, and that's never gone away. I'm always working on something, 
+                        wether as a proof-of-concept, making something fun with my daughter, or just learning about new tools and techniques.</p>
                     <p>I'm currently working on a mining game that runs in the terminal, available for Windows, MacOs and Linux platforms. </p>
                     <p>For updates on the development, check out my <a href="https://fosstodon.org/@ninovandermark">Mastodon</a> account.</p>
                     <img src="/img/mining-game.png" alt="Development screenshot of Mining Game" title="Development screenshot of Mining Game">
