@@ -67,14 +67,13 @@
             <aside>December 2022 - Present day</aside>
             <main>
                 <h4>Full-stack developer, 4Dotnet</h4>
-                <p>Consultant to various clients, helping to improve their software
-                    products and development processes for C# .NET applications
-                    on-premise or in the Cloud</p>
+                <p>Consultant to various clients, helping to improve their software products and development processes for 
+                    mostly C# .NET applications with Angular frontends, on-premise or in the Cloud</p>
             </main>
         </article>
 
         <article>
-            <aside>May 2019 - November 2022</aside>
+            <aside>June 2019 - November 2022</aside>
             <main>
                 <h4>Full-stack developer, Ohpen B.V.</h4>
                 <p>Back-end development for C# .NET applications in AWS, front-end development for Angular applications and websites, 
@@ -83,7 +82,7 @@
         </article>
 
         <article>
-            <aside>August 2018 - May 2019</aside>
+            <aside>September 2018 - May 2019</aside>
             <main>
                 <h4>Full-stack developer, Dazzleware</h4>
                 <p>Customer service & support, developing fixes, new features for 
@@ -92,7 +91,7 @@
         </article>
 
         <article>
-            <aside>August 2018 - May 2019</aside>
+            <aside>Jaunary 2018 - August 2018</aside>
             <main>
                 <h4>Full-stack developer, A&A Capacity</h4>
                 <p>Develop websites in DotNetNuke on IIS, develop Angular apps, work with customers, 
@@ -165,25 +164,43 @@
             <li>PowerShell</li>
             <li>HTML</li>
             <li>CSS</li>
-            <li>Bash</li>
             <li>Java</li>
             <li>Python</li>
-
-            <li>.NET (Core)</li>
+            <li>GDScript</li>
+            
             <li>Angular</li>
+            <li>.NET Core</li>
+            <li>.NET Framework 4.x</li>
+            <li>ASP .NET (Core)</li>
             <li>Entity Framework (Core)</li>
             <li>Aspire</li>
             <li>Dapr</li>
             <li>Cucumber</li>
             <li>Playwright</li>
-            <li>Godot</li>
-            <li>Unity</li>
+            <li>ASP.NET WebForms</li>
+            <li>Blazor</li>
+            <li>Razor pages</li>
         </ul>
         
-        <ul class="term-list" title="Platforms & tools">            
-            <li>Azure</li>
-            <li>AWS</li>
-
+        <ul class="term-list" title="Cloud technologies">
+            <li>AWS Cognito</li>
+            <li>AWS CloudFormation</li>
+            <li>AWS CloudWatch</li>
+            <li>AWS Lambda</li>
+            <li>AWS S3</li>
+            <li>AWS Step Functions</li>
+            <li>AWS SQS</li>
+            <li>AWS EventBridge</li>
+            <li>Azure AD/Entra</li>
+            <li>Azure Container Apps</li>
+            <li>Azure Storage</li>
+            <li>Azure WebApps</li>
+            <li>Azure SQL</li>
+            <li>Azure IOT Hub</li>
+            <li>Azure Functions</li>
+        </ul>
+            
+        <ul class="term-list" title="Platforms & tools">
             <li>SQL Server</li>
             <li>MySQL</li>
             <li>DynamoDB</li>
@@ -194,18 +211,24 @@
             <li>Terraform</li>
             <li>Docker</li>
             <li>Azure DevOps</li>
+            <li>Bitbucket</li>
             <li>GitHub</li>
             <li>Jenkins</li>
+            <li>Datadog Logs</li>
 
             <li>Windows</li>
             <li>Linux</li>
             <li>MacOS</li>
+            <li>Git</li>
+            <li>TFS</li>
             <li>Office</li>
             <li>gIMP</li>
             <li>Paint.NET</li>
             <li>Blender</li>
             <li>Ableton</li>
             <li>Reaper</li>
+            <li>Godot</li>
+            <li>Unity</li>
         </ul>
     </section>
 
@@ -246,11 +269,12 @@
         <h2>Hobbies</h2>
         <ul class="term-list">
             <li>Reading</li>
-            <li>Writing</li>
+            <li>Creative writing</li>
             <li>Composing music</li>
             <li>Playing guitar</li>
+            <li>Performing live music</li>
             <li>Drawing</li>
-            <li>Making games</li>
+            <li>Game development</li>
         </ul>
     </section>
 </body>
