@@ -4,22 +4,34 @@
             <div class="container">
                 <article>
                     
-                    <h3>Game development</h3>
+                    <h1>Programming</h1>
                     <p>I'm currently working on a mining game that runs in the terminal, available for Windows, MacOs and Linux platforms. </p>
-                    <p>For updates on the development, check out my <a href="https://fosstodon.org/@ninovandermark">Mastodon</a> account.</p>
-                    <img src="/img/mining-game.png" alt="Development screenshot of Mining Game" title="Development screenshot of Mining Game">
+                </article>
+            </div>
+
+            <div class="container panel-container">
+                <article>
+                    <a href="https://github.com/NinovanderMark/HtmlTemplater"></a>
+                    <h3>HTML Templater</h3>
+                    <p>Static site generator that uses plain HTML for templates/components and content pages.</p>
                 </article>
 
                 <article>
-                    <h3>Open source</h3>
-                    <p>There are a number of open-source projects I've been involved in over the years, but the following are projects I've started that are somewhat active. </p>
-                    <p>For a complete list of repositories, check out my <a href="https://github.com/ninovandermark">GitHub</a> profile.</p>
-                    <ul>
-                        <li><a href="https://github.com/NinovanderMark/HtmlTemplater">HTML Templater</a> - Static site generator that uses plain HTML for templates/components and content pages.</li>
-                        <li><a href="https://github.com/NinovanderMark/ConsoleRenderer">ConsoleRenderer</a> - Graphics library to draw to a terminal for C# .NET</li>
-                        <li><a href="https://github.com/NinovanderMark/WebLabyrinth">WebLabyrinth</a> - Typescript implementation of a raycaster</li>
-                        <li><a href="https://github.com/NinovanderMark/ConnectionStringTester">ConnectionStringTester</a> - Windows application to test .NET ConnectionStrings</li>
-                    </ul>
+                    <a href="https://github.com/NinovanderMark/ConsoleRenderer"></a>
+                    <h3>ConsoleRenderer</h3>
+                    <p>Graphics library to draw to a terminal for C# .NET.</p>
+                </article>
+
+                <article>
+                    <a href="https://github.com/NinovanderMark/WebLabyrinth"></a>
+                    <h3>WebLabyrinth</h3>
+                    <p>Typescript implementation of a raycaster.</p>
+                </article>
+
+                <article>
+                    <a href="https://github.com/NinovanderMark/ConnectionStringTester"></a>
+                    <h3>ConnectionStringTester</h3>
+                    <p>Windows application to test .NET ConnectionStrings.</p>
                 </article>
             </div>
         </main>
