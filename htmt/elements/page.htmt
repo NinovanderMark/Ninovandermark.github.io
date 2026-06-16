@@ -5,8 +5,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta property="og:image" content="https://www.ninovandermark.nl/img/nino-hoofd.png" />
         <title>{{ Title }}</title>
-        <link rel="stylesheet" href="/css/styles.css" media="all">
-        <link rel="stylesheet" href="/css/fonts.css" media="print" onload="this.media='all'">
+        <link rel="stylesheet" href="/css/styles.css?v1" media="all">
+        <link rel="stylesheet" href="/css/fonts.css?v1" media="print" onload="this.media='all'">
         <noscript><link rel="stylesheet" href="/css/fonts.css"></noscript>
     </head>
 

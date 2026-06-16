@@ -4,8 +4,6 @@ document.addEventListener("DOMContentLoaded", function(event) {
     console.log("%cI appreciate your interest in the inner workings of my website. " +
         "The link in the footer takes you to the GitHub repository for this website. Enjoy!",
         "display: inline-block; border-top: 2px solid #eee; padding: 10px; color: #070; font-weight: bold;");
-
-    addScript('/scripts/footer.js');
 });
 
 function addScript(filepath) {
