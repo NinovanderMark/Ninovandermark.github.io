@@ -9,7 +9,18 @@
                         This is by no means an exhaustive list, for which I would refer to my <a href="https://github.com/NinovanderMark?tab=repositories">GitHub profile</a>.</p>
                 </article>
             </div>
+        </main>
+    </section>
 
+    <section>
+        <header>
+            <img class="background" src="/img/code.jpg">
+            <div class="container">                
+                <h2>Projects</h2>
+            </div>
+        </header>
+
+        <main>
             <div class="container panel-container">
                 <article>
                     <a href="https://github.com/NinovanderMark/HtmlTemplater"></a>

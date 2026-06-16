@@ -158,12 +158,21 @@ article:last-child {
 	width: 40%;
 	padding: 30px;
 	border-width: 0;
-	box-shadow: 2px 4px 4px rgba(0,0,0,0.2);
+	box-shadow: 2px 2px 4px rgba(0,0,0,0.2);
 	transition: all ease-in-out 0.1s;
+}
+
+.dark .panel-container > article {
+	box-shadow: 2px 2px 2px rgba(255,255,255,0.3);
+	background-color: #222;
 }
 
 .panel-container > article:hover {
 	background-color: #e5eaef;
+}
+
+.dark .panel-container > article:hover {
+	background-color: #337;
 }
 
 .panel-container article > a {
@@ -172,6 +181,19 @@ article:last-child {
 	top: 0;
 	width: 100%;
 	height: 100%;
+}
+
+.panel-container > article a::before {
+	content: '↗️';
+	filter: grayscale(1);
+	position: absolute;
+	right: 15px;
+	bottom: 15px;
+	transition: all ease-in-out 0.1s;
+}
+
+.panel-container > article:hover a::before {
+	filter: grayscale(0);
 }
 
 /* ========== */
