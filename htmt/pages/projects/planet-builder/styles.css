@@ -241,26 +241,26 @@ ul.resources > li {
     border-radius: 2px;
 }
 
-.population::before { background: center / contain no-repeat url("assets/resources/population.svg"); }
-.housing::before { background: center / contain no-repeat url("assets/resources/housing.svg"); }
-.food::before { background: center / contain no-repeat url("assets/resources/food.svg"); }
-.health::before { background: center / contain no-repeat url("assets/resources/health.svg"); }
-.happiness::before { background: center / contain no-repeat url("assets/resources/happiness.svg"); }
-.technology::before { background: center / contain no-repeat url("assets/resources/technology.svg"); }
-.money::before { background: center / contain no-repeat url("assets/resources/money.svg"); }
-.wood::before { background: center / contain no-repeat url("assets/resources/wood.svg"); }
-.stone::before { background: center / contain no-repeat url("assets/resources/stone.svg"); }
-.grain::before { background: center / contain no-repeat url("assets/resources/grain.svg"); }
-.livestock::before { background: center / contain no-repeat url("assets/resources/livestock.svg"); }
-.iron::before { background: center / contain no-repeat url("assets/resources/iron.svg"); }
-.coal::before { background: center / contain no-repeat url("assets/resources/coal.svg"); }
-.electricity::before { background: center / contain no-repeat url("assets/resources/electricity.svg"); }
-.iron-ingot::before { background: center / contain no-repeat url("assets/resources/iron-ingot.svg"); }
-.iron-plough::before { background: center / contain no-repeat url("assets/resources/iron-plough.svg"); }
-.wood-fishing-boat::before { background: center / contain no-repeat url("assets/resources/wood-fishing-boat.svg"); }
-.wood-trade-boat::before { background: center / contain no-repeat url("assets/resources/wood-trade-boat.svg"); }
-.electrical-saw::before { background: center / contain no-repeat url("assets/resources/electrical-saw.svg"); }
-.trade-caravan::before { background: center / contain no-repeat url("assets/resources/trade-caravan.svg"); }
+.population::before { background: center / contain no-repeat url("./assets/resources/population.svg"); }
+.housing::before { background: center / contain no-repeat url("./assets/resources/housing.svg"); }
+.food::before { background: center / contain no-repeat url("./assets/resources/food.svg"); }
+.health::before { background: center / contain no-repeat url("./assets/resources/health.svg"); }
+.happiness::before { background: center / contain no-repeat url("./assets/resources/happiness.svg"); }
+.technology::before { background: center / contain no-repeat url("./assets/resources/technology.svg"); }
+.money::before { background: center / contain no-repeat url("./assets/resources/money.svg"); }
+.wood::before { background: center / contain no-repeat url("./assets/resources/wood.svg"); }
+.stone::before { background: center / contain no-repeat url("./assets/resources/stone.svg"); }
+.grain::before { background: center / contain no-repeat url("./assets/resources/grain.svg"); }
+.livestock::before { background: center / contain no-repeat url("./assets/resources/livestock.svg"); }
+.iron::before { background: center / contain no-repeat url("./assets/resources/iron.svg"); }
+.coal::before { background: center / contain no-repeat url("./assets/resources/coal.svg"); }
+.electricity::before { background: center / contain no-repeat url("./assets/resources/electricity.svg"); }
+.iron-ingot::before { background: center / contain no-repeat url("./assets/resources/iron-ingot.svg"); }
+.iron-plough::before { background: center / contain no-repeat url("./assets/resources/iron-plough.svg"); }
+.wood-fishing-boat::before { background: center / contain no-repeat url("./assets/resources/wood-fishing-boat.svg"); }
+.wood-trade-boat::before { background: center / contain no-repeat url("./assets/resources/wood-trade-boat.svg"); }
+.electrical-saw::before { background: center / contain no-repeat url("./assets/resources/electrical-saw.svg"); }
+.trade-caravan::before { background: center / contain no-repeat url("./assets/resources/trade-caravan.svg"); }
 
 .distance::before {
     content: '🔁';
