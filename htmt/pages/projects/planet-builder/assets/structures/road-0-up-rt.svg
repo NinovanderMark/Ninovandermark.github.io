@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="8mm"
+   height="8mm"
+   viewBox="0 0 8.0000001 8.0000001"
+   version="1.1"
+   id="svg1"
+   inkscape:export-filename="hub-0.svg"
+   inkscape:export-xdpi="100.34568"
+   inkscape:export-ydpi="100.34568"
+   sodipodi:docname="road-0-up-rt.svg"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="true"
+     inkscape:zoom="12.232896"
+     inkscape:cx="2.16629"
+     inkscape:cy="24.891899"
+     inkscape:window-width="1680"
+     inkscape:window-height="987"
+     inkscape:window-x="1672"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1">
+    <inkscape:grid
+       id="grid3"
+       units="mm"
+       originx="0"
+       originy="0"
+       spacingx="1"
+       spacingy="1"
+       empcolor="#0099e5"
+       empopacity="0.30196078"
+       color="#0099e5"
+       opacity="0.14901961"
+       empspacing="5"
+       dotted="false"
+       gridanglex="30"
+       gridanglez="30"
+       visible="true" />
+  </sodipodi:namedview>
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0.05833334,0.01666667)">
+    <path
+       style="fill:#552200;stroke-width:0.263864;stroke-dasharray:none"
+       d="m 1.9406487,0.98333333 c 2.144114,-0.28822796 3.1423847,-0.28273345 5.001018,0 0.2767168,2.02128587 0.2532567,3.01644387 0,4.99696257 -2.0959271,0.431672 -3.0670374,0.2970871 -5.001018,0 -0.3826296,-2 -0.3511991,-2.9969626 0,-4.99696257 z"
+       id="path1"
+       sodipodi:nodetypes="ccccc" />
+    <rect
+       style="fill:#552200;stroke-width:0.219341;stroke-dasharray:none"
+       id="rect1"
+       width="4"
+       height="1"
+       x="1.9416666"
+       y="-0.016666669" />
+    <rect
+       style="fill:#552200;stroke-width:0.215148;stroke-dasharray:none"
+       id="rect2"
+       width="1"
+       height="4"
+       x="6.9416666"
+       y="1.9833333" />
+  </g>
+</svg>

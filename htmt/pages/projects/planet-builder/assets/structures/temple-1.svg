@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="16.200001mm"
+   height="16.200001mm"
+   viewBox="0 0 16.200001 16.200001"
+   version="1.1"
+   id="svg1"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <g
+     id="layer1"
+     transform="translate(0.05833334,0.01666667)">
+    <rect
+       style="fill:#ffffff;fill-opacity:0;stroke:#000000;stroke-width:0.2;stroke-dasharray:none;stroke-opacity:1"
+       id="rect1"
+       width="16"
+       height="16"
+       x="0.041666664"
+       y="0.083333328" />
+    <rect
+       style="fill:#aaaaaa;stroke:#000000;stroke-width:0.2;stroke-dasharray:none"
+       id="rect8"
+       width="7.0545454"
+       height="6.9272733"
+       x="3.1234848"
+       y="6.674243" />
+    <rect
+       style="fill:#aaaaaa;stroke:#000000;stroke-width:0.2;stroke-dasharray:none"
+       id="rect9"
+       width="1.2"
+       height="6.1272731"
+       x="2.2689395"
+       y="7.7833333" />
+    <rect
+       style="fill:#aaaaaa;stroke:#000000;stroke-width:0.2;stroke-dasharray:none"
+       id="rect9-1"
+       width="1.2"
+       height="6.1272731"
+       x="9.9284096"
+       y="7.8126893" />
+    <rect
+       style="fill:#aaaaaa;stroke:#000000;stroke-width:0.2;stroke-dasharray:none"
+       id="rect9-7"
+       width="1.2"
+       height="6.1272731"
+       x="4.9698863"
+       y="7.7982955" />
+    <rect
+       style="fill:#aaaaaa;stroke:#000000;stroke-width:0.2;stroke-dasharray:none"
+       id="rect9-5"
+       width="1.2"
+       height="6.1272731"
+       x="7.2437491"
+       y="7.7926135" />
+    <path
+       style="fill:#aaaaaa;stroke:#000000;stroke-width:0.176231;stroke-dasharray:none"
+       d="M 1.1943321,7.8603034 H 12.270831 L 6.7873261,3.6335082 Z"
+       id="path8" />
+    <circle
+       style="fill:#aaaaaa;stroke:#000000;stroke-width:0.2;stroke-dasharray:none"
+       id="path11"
+       cx="13.705304"
+       cy="11.365152"
+       r="0.60000002" />
+    <rect
+       style="fill:#aaaaaa;stroke:#000000;stroke-width:0.2;stroke-dasharray:none"
+       id="rect10"
+       width="2.1818182"
+       height="2.2000003"
+       x="12.650758"
+       y="11.601516" />
+    <rect
+       style="fill:#aaaaaa;stroke:#000000;stroke-width:0.2;stroke-dasharray:none"
+       id="rect11"
+       width="2.9272728"
+       height="1.0181818"
+       x="12.26894"
+       y="12.910606" />
+    <circle
+       style="fill:#aaaaaa;stroke:#000000;stroke-width:0.2;stroke-dasharray:none"
+       id="path12"
+       cx="6.7780309"
+       cy="6.0560608"
+       r="0.83636367" />
+  </g>
+</svg>

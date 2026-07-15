@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="16.200001mm"
+   height="16.200001mm"
+   viewBox="0 0 16.200001 16.200001"
+   version="1.1"
+   id="svg1"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <g
+     id="layer1"
+     transform="translate(0.05833334,0.01666667)">
+    <rect
+       style="fill:#ffffff;fill-opacity:0;stroke:#000000;stroke-width:0.2;stroke-dasharray:none;stroke-opacity:1"
+       id="rect1"
+       width="16"
+       height="16"
+       x="0.041666664"
+       y="0.083333328" />
+    <rect
+       style="fill:#aaaaaa;stroke:#000000;stroke-width:0.2;stroke-dasharray:none"
+       id="rect7"
+       width="6.1636367"
+       height="0.61818182"
+       x="7.6507578"
+       y="7.7469697" />
+    <path
+       style="fill:#aaaaaa;stroke:#000000;stroke-width:0.2;stroke-dasharray:none"
+       d="M 1.9053031,13.983334 C 1.4215465,12.93783 1.2040597,11.732565 1.923485,9.9651519 2.39292,8.477909 2.9449048,7.0507023 3.9416668,5.9469699 5.7804102,4.1114618 7.8901879,4.4442284 9.9053034,4.019697 11.133679,4.6147016 11.425773,5.3345436 11.978031,6.0196972 v 0.9454544 l -3.0545458,3.0000003 0.018182,3.0181821 1.9999998,1 z"
+       id="path6" />
+    <rect
+       style="fill:#aaaaaa;stroke:#000000;stroke-width:0.20194;stroke-dasharray:none"
+       id="rect8"
+       width="0.54351467"
+       height="5.5435147"
+       x="11.451728"
+       y="8.3479395" />
+    <rect
+       style="fill:#aaaaaa;stroke:#000000;stroke-width:0.208474;stroke-dasharray:none"
+       id="rect6"
+       width="3.6097076"
+       height="2.1369805"
+       x="10.854996"
+       y="10.787571" />
+    <circle
+       style="fill:#aaaaaa;stroke:#000000;stroke-width:0.2;stroke-dasharray:none"
+       id="path7"
+       cx="11.741667"
+       cy="13.346971"
+       r="0.60000002" />
+    <circle
+       style="fill:#aaaaaa;stroke:#000000;stroke-width:0.2;stroke-dasharray:none"
+       id="path7-1"
+       cx="13.517235"
+       cy="13.338826"
+       r="0.60000002" />
+  </g>
+</svg>

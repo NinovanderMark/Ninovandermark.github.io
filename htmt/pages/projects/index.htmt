@@ -1,0 +1,33 @@
+<page title="Nino van der Mark - Personal Website">
+    <section>
+        <main>
+            <div class="container">
+                <article>
+                    
+                    <h1>Projects</h1>
+                    <p>These are the different programming and software development projects that I'm involved with, or have been involved with somewhat recently. 
+                        This is by no means an exhaustive list, as not all projects are public, but those that are can be found here or on my <a href="https://github.com/NinovanderMark?tab=repositories">GitHub profile</a>.</p>
+                </article>
+            </div>
+        </main>
+    </section>
+
+    <section>
+        <header>
+            <img class="background" src="/img/code.jpg">
+            <div class="container">                
+                <h2>Projects</h2>
+            </div>
+        </header>
+
+        <main>
+            <div class="container panel-container">
+                <article>
+                    <a href="./planet-builder/"></a>
+                    <h3>Planet Builder</h3>
+                    <p>Prototype for a City builder focused around resource management.</p>
+                </article>
+            </div>
+        </main>
+    </section>
+</page>

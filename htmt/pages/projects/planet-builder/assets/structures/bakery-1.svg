@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="16mm"
+   height="16mm"
+   viewBox="0 0 16 16"
+   version="1.1"
+   id="svg1"
+   sodipodi:docname="bakery-1.svg"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="14.552083"
+     inkscape:cx="30.682893"
+     inkscape:cy="30.682893"
+     inkscape:window-width="1920"
+     inkscape:window-height="1129"
+     inkscape:window-x="806"
+     inkscape:window-y="1432"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg1" />
+  <defs
+     id="defs1" />
+  <rect
+     style="fill:#aaaaaa;stroke:#000000;stroke-width:0.2;stroke-dasharray:none"
+     id="rect2"
+     width="7.0781922"
+     height="4.5145555"
+     x="2.2881768"
+     y="8.4881763" />
+  <rect
+     style="fill:#aaaaaa;fill-opacity:0;stroke:#000000;stroke-width:0.199938;stroke-dasharray:none"
+     id="rect3"
+     width="15.800062"
+     height="15.800062"
+     x="0.099968843"
+     y="0.099968843" />
+  <path
+     style="fill:#aaaaaa;fill-opacity:1;stroke:#000000;stroke-width:0.2;stroke-dasharray:none"
+     d="M 1.3920196,8.4889416 5.7076661,3.180759 10.41002,8.5059008 Z"
+     id="path3"
+     sodipodi:nodetypes="cccc" />
+  <path
+     style="fill:#aaaaaa;fill-opacity:1;stroke:#000000;stroke-width:0.22256;stroke-dasharray:none"
+     d="m 10.683987,12.952447 3.759299,0.01807 v -2.241455 c -1.2531,-2.1691504 -2.506199,-2.1691481 -3.759299,0 z"
+     id="path4"
+     sodipodi:nodetypes="ccccc" />
+  <rect
+     style="fill:#aaaaaa;fill-opacity:1;stroke:#000000;stroke-width:0.2;stroke-dasharray:none"
+     id="rect4"
+     width="1.1454545"
+     height="4.2909093"
+     x="11.981819"
+     y="4.9454546" />
+</svg>
