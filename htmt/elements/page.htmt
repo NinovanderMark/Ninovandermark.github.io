@@ -25,6 +25,7 @@
         
         <!-- Other stuff-->
         <script src="/scripts/main.js"></script>
+        <script data-goatcounter="https://ninovdmark.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
         <div class="hidden"><a rel="me" href="https://fosstodon.org/@ninovandermark">Mastodon</a></div>
     </body>
 </html>
