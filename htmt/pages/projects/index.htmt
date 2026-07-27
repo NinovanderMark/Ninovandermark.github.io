@@ -24,8 +24,23 @@
             <div class="container panel-container">
                 <article>
                     <a href="./planet-builder/"></a>
+                    <figure><img src="planetbuilder-screenshot"/></figure>
                     <h3>Planet Builder</h3>
                     <p>Prototype for a City builder focused around resource management.</p>
+                </article>
+
+                <article>
+                    <a href="https://weblabyrinth.ninovandermark.nl/"></a>
+                    <figure><img src="https://private-user-images.githubusercontent.com/6692167/316238839-88db6ff1-080b-4462-af8d-3853df899b0a.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3ODUxNjEzMzUsIm5iZiI6MTc4NTE2MTAzNSwicGF0aCI6Ii82NjkyMTY3LzMxNjIzODgzOS04OGRiNmZmMS0wODBiLTQ0NjItYWY4ZC0zODUzZGY4OTliMGEucG5nP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI2MDcyNyUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNjA3MjdUMTQwMzU1WiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9YmFiMDgxY2VhMGY4YTRkMjdjOWU4OWQyY2I3ZDEwMTJlZmJlYTJmYmI5N2E1NzY4MjZiMjU1NTM2YTAwZDVmNiZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QmcmVzcG9uc2UtY29udGVudC10eXBlPWltYWdlJTJGcG5nIn0.D8tiU9i4eGWamnOslipCu1FzLayEDsVpg_DukANycnU"/></figure>
+                    <h3>Web Labyrinth</h3>
+                    <p>3D Raycaster that runs in the browser, built using TypeScript and Node.js</p>
+                </article>
+
+                <article>
+                    <a href="./squash-for-one/"></a>
+                    <figure><img src="https://private-user-images.githubusercontent.com/6692167/316238839-88db6ff1-080b-4462-af8d-3853df899b0a.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3ODUxNjEzMzUsIm5iZiI6MTc4NTE2MTAzNSwicGF0aCI6Ii82NjkyMTY3LzMxNjIzODgzOS04OGRiNmZmMS0wODBiLTQ0NjItYWY4ZC0zODUzZGY4OTliMGEucG5nP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI2MDcyNyUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNjA3MjdUMTQwMzU1WiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9YmFiMDgxY2VhMGY4YTRkMjdjOWU4OWQyY2I3ZDEwMTJlZmJlYTJmYmI5N2E1NzY4MjZiMjU1NTM2YTAwZDVmNiZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QmcmVzcG9uc2UtY29udGVudC10eXBlPWltYWdlJTJGcG5nIn0.D8tiU9i4eGWamnOslipCu1FzLayEDsVpg_DukANycnU"/></figure>
+                    <h3>Squash for One</h3>
+                    <p>Simple pong clone, written in plain Javascript.</p>
                 </article>
             </div>
         </main>

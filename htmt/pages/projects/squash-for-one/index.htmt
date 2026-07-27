@@ -1,0 +1,14 @@
+<page title="Squash for One - Nino van der Mark">
+    <section>
+        <main>
+            <div class="container">
+                <article>
+                    <h1>Squash For One</h1>
+                    <canvas id="canvas" width="640" height="480">Your browser does not support CANVAS HTML elements</canvas>
+                    <script src="squash.js"></script>
+                </article>
+            </div>
+        </main>
+    </section>
+</page>
+              
