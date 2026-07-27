@@ -107,7 +107,7 @@ footer {
 }
 
 .container {
-	max-width: 1140px;
+	width: 1140px;
 	margin: auto;
 	padding: 0 15px;
 	position: relative;
@@ -145,12 +145,7 @@ article > header {
 	height: 120px;
 	margin: -30px -30px 30px -30px;
 	position: relative;
-}
-
-@media screen and (max-width: 1000px) {
-	.container.row, .container.row-reversed {
-		flex-direction: column;
-	}
+	pointer-events: none;
 }
 
 .panel-container {
@@ -161,7 +156,7 @@ article > header {
 }
 
 .panel-container > article {
-	width: 40%;
+	width: 500px;
 	padding: 30px;
 	border-width: 0;
 	box-shadow: 2px 2px 4px rgba(0,0,0,0.2);
@@ -201,6 +196,35 @@ article > header {
 .panel-container > article:hover a::before {
 	filter: grayscale(0);
 }
+
+@media screen and (max-width: 1200px) {
+	.container {
+		width: 860px;
+	}
+
+	.container.row, .container.row-reversed {
+		flex-direction: column;
+	}
+
+	.panel-container > article {
+		width: 360px;
+	}
+}
+
+@media screen and (max-width: 920px) {
+	.container {
+		width: auto;
+	}
+
+	.panel-container {
+		gap: 30px;
+	}
+
+	.panel-container > article {
+		width: 100%;
+	}
+}
+
 
 /* ========== */
 /* Components */
