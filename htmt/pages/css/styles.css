@@ -68,7 +68,7 @@ main {
 	padding: 30px 0;
 }
 
-section header {
+section > header {
 	position: relative;
 	margin: auto;
 	padding: 15px;
@@ -76,7 +76,7 @@ section header {
 	box-shadow: 4px 4px 8px rgba(0,0,0,0.4);
 }
 
-section header::before {
+section > header::before {
 	content: '';
 	position: absolute;
 	left: 0;
@@ -123,7 +123,7 @@ footer {
 	flex-direction: row-reverse;
 }
 
-section header .container {
+section > header .container {
 	z-index: 2;
 }
 
@@ -139,6 +139,12 @@ article:last-child {
 
 .dark article {
 	border-color: #333;
+}
+
+article > header {
+	height: 120px;
+	margin: auto -30px 30px -30px;
+	position: relative;
 }
 
 @media screen and (max-width: 1000px) {
