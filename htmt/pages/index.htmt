@@ -34,15 +34,32 @@
                     <p>In my professional life I'm a software developer for 4Dotnet working mainly with C#, .NET, Angular and Typescript. 
                         If you're interested in reaching me for professional purposes, please see my <a href="/cv">CV here</a> for ways to get in touch.</p>
                 </article>
-                <article>
+
+                <article class="full-width">
                     <h3>Game development</h3>
                     <p>My interest in software development started with making games, and that's never gone away. I'm always working on something, 
                         wether as a proof-of-concept, making something fun with my daughter, or just learning about new tools and techniques.</p>
-                    <p>I'm currently working on a mining game that runs in the terminal, available for Windows, MacOs and Linux platforms. </p>
-                    <p>For updates on the development, check out my <a href="https://fosstodon.org/@ninovandermark">Mastodon</a> account.</p>
-                    <img src="/img/mining-game.png" alt="Development screenshot of Mining Game" title="Development screenshot of Mining Game">
+                    <p>Below are some of my public endeavours, for a more sizeable list, check out the <a href="./projects/">Projects page</a>.</p>
+                </article>
+            </div>
+
+            <div class="container panel-container mb-1">
+                <article>
+                    <a href="./projects/planet-builder/"></a>
+                    <header><img src="./projects/planetbuilder-screenshot.png" class="background"/></header>
+                    <h3>Planet Builder</h3>
+                    <p>Prototype for a City builder focused around resource management.</p>
                 </article>
 
+                <article>
+                    <a href="https://weblabyrinth.ninovandermark.nl/"></a>
+                    <header><img src="./projects/weblabyrinth-screenshot.png" class="background"/></header>
+                    <h3>Web Labyrinth</h3>
+                    <p>3D Raycaster that runs in the browser, built using TypeScript and Node.js</p>
+                </article>
+            </div>
+                
+            <div class="container">
                 <article>
                     <h3>Open source</h3>
                     <p>There are a number of open-source projects I've been involved in over the years, but the following are projects I've started that are somewhat active. </p>

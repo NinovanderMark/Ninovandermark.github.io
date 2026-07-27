@@ -37,6 +37,13 @@
                 </article>
 
                 <article>
+                    <a href="https://playground.babylonjs.com/#JWGLE6#2"></a>
+                    <header><img src="babylon-descent-screenshot.jpg" class="background"/></header>
+                    <h3>Babylon.js - Descent</h3>
+                    <p>Attempting to recreate Descent-style movement in Babylon.js.</p>
+                </article>
+
+                <article>
                     <a href="./squash-for-one/"></a>
                     <header><img src="squash-for-one-screenshot.png" class="background"/></header>
                     <h3>Squash for One</h3>

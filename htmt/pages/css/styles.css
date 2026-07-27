@@ -59,6 +59,14 @@ ul li {
 	margin-bottom: 10px;
 }
 
+hr {
+	border-color: #e5eaef;
+	width: 100%;
+	border-width: 0;
+	border-bottom-width: 4px;
+	margin: 30px auto 0;
+}
+
 /* ============== */
 /* Page structure */
 /* ============== */
