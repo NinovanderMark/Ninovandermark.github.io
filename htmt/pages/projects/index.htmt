@@ -24,21 +24,21 @@
             <div class="container panel-container">
                 <article>
                     <a href="./planet-builder/"></a>
-                    <figure><img src="planetbuilder-screenshot.png"/></figure>
+                    <img src="planetbuilder-screenshot.png" class="background"/>
                     <h3>Planet Builder</h3>
                     <p>Prototype for a City builder focused around resource management.</p>
                 </article>
 
                 <article>
                     <a href="https://weblabyrinth.ninovandermark.nl/"></a>
-                    <figure><img src="weblabyrinth-screenshot.png"/></figure>
+                    <img src="weblabyrinth-screenshot.png" class="background"/>
                     <h3>Web Labyrinth</h3>
                     <p>3D Raycaster that runs in the browser, built using TypeScript and Node.js</p>
                 </article>
 
                 <article>
                     <a href="./squash-for-one/"></a>
-                    <figure><img src="squash-for-one-screenshot.png"/></figure>
+                    <img src="squash-for-one-screenshot.png" class="background"/>
                     <h3>Squash for One</h3>
                     <p>Simple pong clone, written in plain Javascript.</p>
                 </article>
