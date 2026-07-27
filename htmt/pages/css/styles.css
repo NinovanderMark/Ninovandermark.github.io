@@ -143,7 +143,7 @@ article:last-child {
 
 article > header {
 	height: 120px;
-	margin: auto -30px 30px -30px;
+	margin: -30px -30px 30px -30px;
 	position: relative;
 }
 
