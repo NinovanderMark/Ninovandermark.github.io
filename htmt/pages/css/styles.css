@@ -205,6 +205,10 @@ article > header::before {
 	height: 100%;
 }
 
+.panel-container article > a:hover {
+	text-shadow: 2px 2px 4px rgba(0,0,0,0.4);
+}
+
 .panel-container > article a::before {
 	content: '↗️';
 	filter: grayscale(1);
