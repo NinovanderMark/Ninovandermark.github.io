@@ -76,12 +76,15 @@ main {
 	padding: 30px 0;
 }
 
-section > header {
+header {
+	box-shadow: 4px 4px 8px rgba(0,0,0,0.4);
 	position: relative;
+	color: #fff;
+}
+
+section > header {
 	margin: auto;
 	padding: 15px;
-	color: #fff;
-	box-shadow: 4px 4px 8px rgba(0,0,0,0.4);
 }
 
 section > header::before {
@@ -152,7 +155,6 @@ article:last-child {
 article > header {
 	height: 120px;
 	margin: -30px -30px 30px -30px;
-	position: relative;
 	pointer-events: none;
 }
 
