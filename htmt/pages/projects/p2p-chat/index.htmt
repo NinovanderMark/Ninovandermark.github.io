@@ -23,7 +23,7 @@
                     </div>
 
                     <div class="inputs">
-                        <input type="text" id="message-input" placeholder="Type a message..." disabled>
+                        <input type="text" id="message-input" placeholder="Waiting for other peers..." disabled>
                         <button id="send-btn" disabled>Send</button>
                     </div>
                 </article>
@@ -129,6 +129,7 @@
         room.onPeerJoin(peerId => {
             logMessage(`New peer joined the room!`, true);
             messageInput.disabled = false;
+            messageInput.placeholder = "Type a message...";
             sendBtn.disabled = false;
             
             // Default placeholder until peer sends their actual name
