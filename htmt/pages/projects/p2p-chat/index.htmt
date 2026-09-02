@@ -38,7 +38,7 @@
         #user-list-container { flex: 1; border: 1px solid #ccc; height: 300px; overflow-y: auto; padding: 0.5rem; border-radius: 4px; background: #f9f9f9; }
         #user-list-container h3 { margin: 0 0 0.5rem 0; font-size: 1rem; border-bottom: 1px solid #ddd; padding-bottom: 0.3rem; }
         #user-list { list-style: none; padding: 0; margin: 0; }
-        #user-list li { padding: 0.3rem 0; font-size: 0.9rem; border-bottom: 1px dotted #eee; }
+        #user-list li { margin: auto; font-size: 0.9rem; border-bottom: 1px dotted #eee; }
         #user-list li.you { font-weight: bold; color: #0066cc; }
 
         .message { margin: 0.3rem 0; }
@@ -79,8 +79,8 @@
             selfLi.textContent = `${myName} (You)`;
             userList.appendChild(selfLi);
 
-            // Add all connected peers
-            Object.keys(peerNames).forEach(peerId => {
+            // Add all connected peers, sorted alphabetically
+            Object.keys(peerNames).sort(a,b => peerNames[a] - peerNames[b]).forEach(peerId => {
                 const li = document.createElement('li');
                 li.textContent = peerNames[peerId];
                 userList.appendChild(li);
