@@ -79,8 +79,8 @@
             selfLi.textContent = `${myName} (You)`;
             userList.appendChild(selfLi);
 
-            // Add all connected peers, sorted alphabetically
-            Object.keys(peerNames).sort(a,b => peerNames[a] - peerNames[b]).forEach(peerId => {
+            // Add all connected peers
+            Object.keys(peerNames).forEach(peerId => {
                 const li = document.createElement('li');
                 li.textContent = peerNames[peerId];
                 userList.appendChild(li);
