@@ -7,7 +7,8 @@
                     <h1>Peer-2-Peer Chat</h1>
                     <p>Talk to other people on the internet, without needing to host a server. Peers are discovered using <a href="https://github.com/dmotz/trystero">Trystero</a>, 
                         after which all messages are sent directly between peers.</p>
-
+                    
+                    <p>Cross-browser peer discovery may fail when both users have to go through NAT. As this chat is peer-to-peer, strict firewall rules may prevent it from working alltogether.</p>
 
                     <div class="username-container">
                         <label for="username-input"><strong>Your Name:</strong></label>
