@@ -37,6 +37,13 @@
                 </article>
 
                 <article>
+                    <a href="./p2p-chat/"></a>
+                    <header><img src="p2p-chat-screenshot.png" class="background"/></header>
+                    <h3>Peer-2-Peer Chat</h3>
+                    <p>Serverless p2p chatroom using Trystero over MQQT.</p>
+                </article>
+
+                <article>
                     <a href="https://playground.babylonjs.com/#JWGLE6#2"></a>
                     <header><img src="babylon-descent-screenshot.jpg" class="background"/></header>
                     <h3>Babylon.js - Descent</h3>

@@ -1,4 +1,4 @@
-<page title="Projects - Nino van der Mark">
+<page title="Peer-2-Peer Chat - Nino van der Mark">
     <section>
         <main>
             <div class="container">
@@ -7,23 +7,20 @@
                     <h1>Peer-2-Peer Chat</h1>
                     <p>Talk to other people on the internet, without needing to host a server. Peers are discovered using <a href="https://github.com/dmotz/trystero">Trystero</a>, 
                         after which all messages are sent directly between peers.</p>
+
+
+                    <div class="username-container">
+                        <label for="username-input"><strong>Your Name:</strong></label>
+                        <input type="text" id="username-input" placeholder="Enter your name...">
+                    </div>
+
+                    <div id="chat-box"></div>
+
+                    <div class="inputs">
+                        <input type="text" id="message-input" placeholder="Type a message..." disabled>
+                        <button id="send-btn" disabled>Send</button>
+                    </div>
                 </article>
-            </div>
-        </main>
-    </section>
-    
-    <section>
-        <main>
-            <div class="username-container">
-                <label for="username-input"><strong>Your Name:</strong></label>
-                <input type="text" id="username-input" placeholder="Enter your name...">
-            </div>
-
-            <div id="chat-box"></div>
-
-            <div class="inputs">
-                <input type="text" id="message-input" placeholder="Type a message..." disabled>
-                <button id="send-btn" disabled>Send</button>
             </div>
         </main>
     </section>
@@ -69,7 +66,7 @@
         logMessage('Connecting to P2P network...', true);
 
         // 1. Join room
-        const config = { appId: 'my-local-p2p-app' };
+        const config = { appId: 'ninovandermark-nl-p2p-chat' };
         const room = joinRoom(config, 'lobby');
 
         // 2. Define custom actions for chat messages and name synchronization
