@@ -14,7 +14,13 @@
                         <input type="text" id="username-input" placeholder="Enter your name...">
                     </div>
 
-                    <div id="chat-box"></div>
+                    <div class="chat-layout">
+                        <div id="chat-box"></div>
+                        <div id="user-list-container">
+                        <h3>Active Users</h3>
+                        <ul id="user-list"></ul>
+                        </div>
+                    </div>
 
                     <div class="inputs">
                         <input type="text" id="message-input" placeholder="Type a message..." disabled>
@@ -26,7 +32,15 @@
     </section>
 
     <style>
-        #chat-box { border: 1px solid #ccc; height: 300px; overflow-y: auto; padding: 0.5rem; margin-bottom: 1rem; border-radius: 4px; }
+        .chat-layout { display: flex; gap: 1rem; margin-bottom: 1rem; }
+        #chat-box { flex: 2; border: 1px solid #ccc; height: 300px; overflow-y: auto; padding: 0.5rem; border-radius: 4px; }
+        
+        #user-list-container { flex: 1; border: 1px solid #ccc; height: 300px; overflow-y: auto; padding: 0.5rem; border-radius: 4px; background: #f9f9f9; }
+        #user-list-container h3 { margin: 0 0 0.5rem 0; font-size: 1rem; border-bottom: 1px solid #ddd; padding-bottom: 0.3rem; }
+        #user-list { list-style: none; padding: 0; margin: 0; }
+        #user-list li { padding: 0.3rem 0; font-size: 0.9rem; border-bottom: 1px dotted #eee; }
+        #user-list li.you { font-weight: bold; color: #0066cc; }
+
         .message { margin: 0.3rem 0; }
         .system { color: #888; font-style: italic; }
         .inputs { display: flex; gap: 0.5rem; margin-top: 0.5rem; }
@@ -42,16 +56,35 @@
         const messageInput = document.getElementById('message-input');
         const sendBtn = document.getElementById('send-btn');
         const usernameInput = document.getElementById('username-input');
+        const userList = document.getElementById('user-list');
 
-        // Generate a default unique username using a random 4-char suffix
+        // Generate default username
         let myName = 'User-' + Math.floor(1000 + Math.random() * 9000);
         usernameInput.value = myName;
 
-        // Store display names of connected peers keyed by their peerId
+        // Store display names of connected peers keyed by peerId
         const peerNames = {};
 
         function getPeerDisplayName(peerId) {
             return peerNames[peerId] || `Peer (${peerId.slice(0, 4)})`;
+        }
+
+        // Helper to render the online user list UI
+        function updateUserListUI() {
+            userList.innerHTML = '';
+
+            // Add self to top of list
+            const selfLi = document.createElement('li');
+            selfLi.className = 'you';
+            selfLi.textContent = `${myName} (You)`;
+            userList.appendChild(selfLi);
+
+            // Add all connected peers
+            Object.keys(peerNames).forEach(peerId => {
+                const li = document.createElement('li');
+                li.textContent = peerNames[peerId];
+                userList.appendChild(li);
+            });
         }
 
         // Helper to log messages to the UI
@@ -64,22 +97,23 @@
         }
 
         logMessage('Connecting to P2P network...', true);
+        updateUserListUI();
 
         // 1. Join room
         const config = { appId: 'ninovandermark-nl-p2p-chat' };
         const room = joinRoom(config, 'lobby');
 
-        // 2. Define custom actions for chat messages and name synchronization
+        // 2. Actions
         const [sendMessage, receiveMessage] = room.makeAction('chat');
         const [sendName, receiveName] = room.makeAction('nameChange');
 
-        // 3. Handle incoming messages
+        // 3. Receive chat messages
         receiveMessage((data, peerId) => {
             const name = getPeerDisplayName(peerId);
             logMessage(`${name}: ${data}`);
         });
 
-        // 4. Handle incoming name announcements/changes
+        // 4. Receive peer name changes
         receiveName((newName, peerId) => {
             const oldName = getPeerDisplayName(peerId);
             peerNames[peerId] = newName;
@@ -87,15 +121,21 @@
             if (oldName !== newName && oldName !== `Peer (${peerId.slice(0, 4)})`) {
                 logMessage(`${oldName} changed their name to ${newName}`, true);
             }
+
+            updateUserListUI();
         });
 
-        // 5. Handle peer join/leave lifecycle
+        // 5. Lifecycle Handlers
         room.onPeerJoin(peerId => {
             logMessage(`New peer joined the room!`, true);
             messageInput.disabled = false;
             sendBtn.disabled = false;
             
-            // Send your current display name directly to the newly connected peer
+            // Default placeholder until peer sends their actual name
+            peerNames[peerId] = `Peer (${peerId.slice(0, 4)})`;
+            updateUserListUI();
+
+            // Announce current local username to the newly connected peer
             sendName(myName, peerId);
         });
 
@@ -103,17 +143,18 @@
             const name = getPeerDisplayName(peerId);
             logMessage(`${name} disconnected.`, true);
             delete peerNames[peerId];
+            updateUserListUI();
         });
 
-        // 6. Handle updating local username
+        // 6. Handle local name updates
         usernameInput.addEventListener('change', () => {
             const newName = usernameInput.value.trim();
             if (!newName || newName === myName) return;
             
             myName = newName;
-            // Broadcast new name to all peers in the room
             sendName(myName);
             logMessage(`You changed your name to: ${myName}`, true);
+            updateUserListUI();
         });
 
         // 7. Send message logic
