@@ -33,7 +33,7 @@
                     <a href="./webxr/"></a>
                     <header><img src="webxr-screenshot.jpg" class="background"/></header>
                     <h3>WebXR Example</h3>
-                    <p>Simple VR scene built using Godot that works in the browser through WebXR</p>
+                    <p>Simple VR scene in the browser using WebXR and the Godot engine</p>
                 </article>
 
                 <article>
