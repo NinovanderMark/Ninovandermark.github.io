@@ -1,0 +1,14 @@
+<page title="Squashanoid - Nino van der Mark">
+    <section>
+        <main>
+            <div class="container">
+                <article>
+                    <h1>Squashanoid</h1>
+                    <canvas id="canvas" width="800" height="600">Your browser does not support CANVAS HTML elements</canvas>
+                    <p>Arrow keys or click/touch and hold to move. Space, click or tap to launch the ball.</p>
+                    <script src="squashanoid.js"></script>
+                </article>
+            </div>
+        </main>
+    </section>
+</page>
