@@ -24,7 +24,7 @@
             <div class="container panel-container">
                 <article>
                     <a href="./squashanoid/"></a>
-                    <header><img src="squash-for-one-screenshot.png" class="background"/></header>
+                    <header><img src="squashanoid-screenshot.png" class="background"/></header>
                     <h3>Squashanoid</h3>
                     <p>Arkanoid clone, written in plain Javascript.</p>
                 </article>
