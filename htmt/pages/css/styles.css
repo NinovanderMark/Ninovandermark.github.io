@@ -313,6 +313,10 @@ article > header::before {
 	text-align: center;
 }
 
+.centered {
+	margin: auto;
+}
+
 /* Panel blocks */
 .panel-block {
 	position: relative;
